@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "node ./libs/deploy"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@types/node": "^18",
+    "autoprefixer": "^10.4.14",
+    "husky": "^8.0.3",
+    "nuxt": "^3.4.2",
+    "postcss": "^8.4.23",
+    "push-dir": "^0.4.1"
+  }
+}
