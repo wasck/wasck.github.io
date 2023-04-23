@@ -1,0 +1,25 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* text selection color */
+::-moz-selection { /* Code for Firefox */
+  color: #B5C2B7;
+  background: #62466B;
+}
+
+::selection {
+  color: #B5C2B7;
+  background: #62466B;
+}
+
+
+/* 
+colors: [
+  #B5C2B7: ash gray,
+  #8C93A8: cool gray,
+  #62466B: english violet,
+  #45364B: english violet darker,
+  #2D2327: raisin black
+]
+*/
