@@ -1,10 +1,13 @@
 <template>
-  <main>
-    <UnderConstruction v-if="isUnderConstruction"/>
-    <div v-else>
-      Not under construction
+  <UnderConstruction v-if="isUnderConstruction"/>
+
+  <main v-else class="h-screen bg-[#2D2327] text-[#B5C2B7]">
+    <Header/>
+    <div class="h-screen pt-16 px-2 overflow-y-auto">
+      content
     </div>
-    
+
+    <Footer/>
   </main>
 </template>
 
