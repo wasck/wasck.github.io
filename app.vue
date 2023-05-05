@@ -5,6 +5,7 @@
     <Header />
     <div class="flex flex-col h-screen w-full py-20 px-2 overflow-y-auto items-center gap-24">
       <AboutMe class="lg:w-1/2"/>
+      <CVTimeline />
       <DevStack class="p-4"/>
     </div>
     <Footer />
