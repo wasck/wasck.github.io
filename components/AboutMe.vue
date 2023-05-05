@@ -2,7 +2,7 @@
   <div class="flex flex-col text-center ">
     <div class="flex sm:flex-col md:flex-col lg:flex-row ">
       <div class="content">
-        <h1 class="my-12">
+        <h1>
           <span class="uppercase font-bold">{{ fullName }}</span> 
           <span class="uppercase text-slate-500"> | Front-End Web Developer</span>
         </h1>

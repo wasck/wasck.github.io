@@ -2,11 +2,12 @@
   <UnderConstruction v-if="isUnderConstruction"/>
 
   <main v-else class="flex justify-center h-screen bg-[#2D2327] text-[#B5C2B7]">
-    <Header/>
-    <div class="h-screen pt-16 px-2 w-3/4 overflow-y-auto">
-      <AboutMe />
+    <Header />
+    <div class="flex flex-col h-screen w-full py-20 px-2 overflow-y-auto items-center gap-24">
+      <AboutMe class="lg:w-1/2"/>
+      <DevStack class="p-4"/>
     </div>
-    <Footer/>
+    <Footer />
   </main>
 </template>
 

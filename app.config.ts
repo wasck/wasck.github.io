@@ -1,4 +1,4 @@
 export default defineAppConfig({
   title: 'wasck',
-  underConstruction: true
+  underConstruction: false
 });
